@@ -1,0 +1,44 @@
+#subj {
+    text-transform: capitalize;
+}
+
+#btnColor {
+    background-color: teal;
+}
+
+#page {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#card {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+#gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    margin: 15px 15px 0 15px;
+}
+
+
+@media only screen and (max-width: 576px) {
+
+    #gridContainer {
+        grid-template-columns: 1fr;
+    }
+
+    #page {
+        grid-template-columns: 1fr;
+    }
+
+    #one {
+        display: none;
+    }
+
+    #two {
+        display: none;
+    }
+
+}
