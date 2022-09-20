@@ -35,7 +35,7 @@ const Update = () => {
   const handleData = (e) => {
     const name = e.target.id;
     const value = e.target.value;
-    setData({ ...data, [name]: value })
+    setData({ ...data, [name]: value});
   }
 
   const submit = async (e) => {
